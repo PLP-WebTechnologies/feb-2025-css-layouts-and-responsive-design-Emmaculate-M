@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ParcelGo - Fast Parcel Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">ParcelGo</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Track</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <section class="intro">
+      <h1>Fast & Reliable Parcel Delivery</h1>
+      <p>Send and receive parcels with ease, anytime, anywhere.</p>
+    </section>
+
+    <section class="services">
+      <div class="service-card">📦 Same Day Delivery</div>
+      <div class="service-card">🚚 Nationwide Shipping</div>
+      <div class="service-card">📍 Real-time Tracking</div>
+    </section>
+
+    <section class="form-section">
+      <h2>Send a Parcel</h2>
+      <form class="parcel-form">
+        <div class="form-group">
+          <label for="sender">Sender Name:</label>
+          <input type="text" id="sender" name="sender" required>
+        </div>
+        <div class="form-group">
+          <label for="pickup">Pickup Address:</label>
+          <input type="text" id="pickup" name="pickup" required>
+        </div>
+        <div class="form-group">
+          <label for="receiver">Receiver Name:</label>
+          <input type="text" id="receiver" name="receiver" required>
+        </div>
+        <div class="form-group">
+          <label for="delivery">Delivery Address:</label>
+          <input type="text" id="delivery" name="delivery" required>
+        </div>
+        <div class="form-group">
+          <label for="package">Package Description:</label>
+          <input type="text" id="package" name="package" required>
+        </div>
+        <button type="submit">Submit Request</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ParcelGo. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
